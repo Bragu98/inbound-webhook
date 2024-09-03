@@ -1,7 +1,5 @@
 import { IsString, IsUUID, IsDateString, IsObject, IsNumber } from 'class-validator';
 
-
-
 export class AdditionalDataDto {
     @IsNumber()
     amount: number;
